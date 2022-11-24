@@ -369,7 +369,7 @@ header{
     position: relative;
 }
 .project-wrapper::before{
-    content: '';
+    content: ''; 
     position: absolute;
     height: 100px;
     width: 100px;
@@ -419,6 +419,7 @@ footer{
     color: #fff;
     margin: 0.5rem;
     font-size: larger;
+    position: relative;
 }
 .project:hover > .project-wrapper::before{
     height: 150px;
