@@ -212,6 +212,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
 }
 .description h2{
     margin-bottom: 1rem;
@@ -221,18 +222,22 @@ header{
     border-radius: 1rem;
     padding: 1rem;
     list-style: none;
+    box-shadow: 0.3rem 0.3rem 1rem white;
+    margin: 2rem 0 2rem 0;
 }
-
+.caixa-curriculo{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center
+}
 .info:hover #CV{
-    margin-top: 4rem;
     text-decoration: none;
     border: 2px solid #ffff;
     border-radius: 1rem;
     padding: 0.5rem;
+    /* box-shadow: 0.3rem 0.3rem 1rem white; */
 }
-.info a:hover{
-    box-shadow: 0.3rem 0.3rem 1rem white;
-}
+
 
 #abilidades{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 23.13%, rgba(0, 0, 0, 0) 48.96%, rgba(0, 0, 0, 0.2) 72.15%, rgba(0, 0, 0, 0.2) 100%), url('https://img.freepik.com/free-photo/computer-screens-desk-empty-software-it-agency-office-computers-background-running-programming-code-data-algorithms-neural-network-servers-cloud-computing-data-room_482257-33530.jpg?w=900&t=st=1668644047~exp=1668644647~hmac=7cf9dadd6b29f5dc43e22357af7f92d1e70c5c8d61bafd39f53aa61c71639b00');
@@ -402,11 +407,44 @@ header{
 }
 
 footer{
-    height: 4rem;
+    padding-top: 1rem;
     background-color: #09080A;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+footer .redes-sociais img{
+    width: 1.5rem;
+    margin-right: 0.5rem;
+}
+footer .redes-sociais{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.insta a{
+    display: flex;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.gmail a{
+    display: flex;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.linkedin a{
+    display: flex;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
 }
 
 .project:hover a{
@@ -426,7 +464,6 @@ footer{
     width: 250px;
     opacity: 1; 
 }
-
 
 
 @media screen and (max-width: 560px) {
