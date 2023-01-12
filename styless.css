@@ -23,6 +23,8 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 1rem 1rem;
+    margin: auto;
+    max-width: 1400px;
 }
 .logo{
     display: flex;
@@ -30,7 +32,10 @@ header{
 }
 .logo h1 {
     font-family: 'Roboto Slab';
-    padding-left: 2rem ;
+    padding-left: 1rem ;
+}
+.logo img{
+    border-radius: 100%;
 }
 .nav-list{
     display: flex;
@@ -89,7 +94,6 @@ header{
 .capa h2{
     font-family: 'Roboto Slab';
     font-size: 3rem;
-    margin-left: 3rem;
 }
 .capa{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.116) 51.56%, rgba(0, 0, 0, 0.2) 100%), url(./img/download.jpg);
@@ -104,6 +108,17 @@ header{
     flex-wrap: wrap;
     background-attachment: fixed; 
 }
+
+.rede-proficional{
+    width: 1400px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+} 
+
 .midia{
     display: flex;
     flex-wrap: wrap;
@@ -188,6 +203,7 @@ header{
 .about h2{
     text-align: center;
     margin: 3rem 0 3rem 0;
+    font-size: 2.5rem;;
 }
 .container{
     display: flex;
@@ -254,6 +270,7 @@ header{
 .skills h2{
     text-align: center;
     margin-bottom: 4rem;
+    font-size: 2.5rem;
 }
 .list_skills{
     display: flex;
@@ -335,8 +352,12 @@ header{
     opacity: 1;
 }
 .projects{
-    margin: 10rem 0;
+    margin: 5rem 0;
     min-height: 25rem;
+}
+.title-section{
+    font-size: 2.5rem;
+    text-align: center;
 }
 .projects h2{
     text-align: center;
@@ -387,6 +408,9 @@ header{
 
 .project h2{
     margin: 0 0 1rem 0;
+}
+#prj4{
+    background-image: url(./img/projeto-portifolio.png);
 }
 
 #prj3{
@@ -467,6 +491,16 @@ footer .redes-sociais{
 
 
 @media screen and (max-width: 560px) {
+    h1{
+        font-size: 20px;
+    }
+    .logo img{
+        height: 30px;
+    }
+    .capa h2{
+        margin-left: 2rem;
+        font-size: 40px;
+    }
     .info #CV{
         margin-top: 4rem;
         text-decoration: none;
