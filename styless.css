@@ -11,11 +11,11 @@ html{
 
 
 body{
-    background:#242922;
+    background:#485458;
 }
 
 header{
-    background-color: #140f01b0;
+    background-color: #485458;
     box-shadow: 0px 3px 10px #464646;
     border-top: 0.25rem solid #25E2E2;
 }
@@ -92,7 +92,7 @@ header{
     font-size: 3rem;
 }
 .capa{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.116) 51.56%, rgba(0, 0, 0, 0.2) 100%), url(./img/download.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.116) 51.56%, rgba(0, 0, 0, 0.2) 100%), url(./img/Gemini_Generated_Image_pompdfpompdfpomp.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
