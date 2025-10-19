@@ -94,6 +94,7 @@ header{
 .capa{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.116) 51.56%, rgba(0, 0, 0, 0.2) 100%), url(./img/Gemini_Generated_Image_pompdfpompdfpomp.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     background-position: bottom;
     height: 30rem;
