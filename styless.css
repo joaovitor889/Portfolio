@@ -17,7 +17,7 @@ body{
 header{
     background-color: #485458;
     box-shadow: 0px 3px 10px #464646;
-    border-top: 0.25rem solid #25E2E2;
+    border-bottom: 0.25rem solid #fff;
 }
 
 
@@ -116,6 +116,10 @@ header{
     flex-wrap: wrap;
 } 
 
+.rede-proficional img{
+    width: 384px;
+    height: 422px;
+}
 .midia{
     display: flex;
     flex-wrap: wrap;
