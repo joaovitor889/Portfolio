@@ -116,7 +116,11 @@ header{
     flex-wrap: wrap;
 } 
 
-.rede-proficional img{
+.rede-proficional div{
+    width: 700px;
+}
+
+.rede-proficional div img{
     width: 384px;
     height: 422px;
 }
