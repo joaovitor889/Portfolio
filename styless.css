@@ -32,6 +32,9 @@ header{
     display: flex;
     align-items: center;
 }
+.logo img{
+    width: 150px;
+}
 
 .nav-list{
     display: flex;
@@ -89,15 +92,15 @@ header{
 }
 .capa h2{
     font-family: 'Roboto Slab';
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .capa{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.116) 51.56%, rgba(0, 0, 0, 0.2) 100%), url(./img/Gemini_Generated_Image_pompdfpompdfpomp.png);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.541) 0%, rgba(0, 0, 0, 0.336) 51.56%, rgba(0, 0, 0, 0.2) 100%), url(./img/Gemini_Generated_Image_pompdfpompdfpomp.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-position: bottom;
-    height: 35rem;
+    min-height: 30rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -106,28 +109,47 @@ header{
     background-attachment: fixed; 
 }
 
+
 .rede-proficional{
-    width: 1400px;
+    max-width: 1400px;
     margin-inline: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 } 
 
 .rede-proficional div{
-    width: 700px;
+    text-align: center;
+    max-width: 700px;
+    align-items: center;
+    align-content: center;
+    height: 100%;
 }
 
 .rede-proficional div img{
+    margin: 4rem;
     width: 384px;
     height: 422px;
+    margin-left: 4rem;
 }
+
+.rede-proficional div h2{
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.rede-proficional div p{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
 .midia{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
 .midia a{
     border: solid 3px white;
@@ -189,7 +211,7 @@ header{
     left: 0;
     border-left: 2px solid #fff;
     animation: typing 2s steps(20) infinite;
-    background: #242922;
+    background: #485458;
 }
 .dinamico li span{
     position: relative;
@@ -201,6 +223,36 @@ header{
     }
 }
 
+.historico p{
+    font-size: 1rem;
+    text-wrap: inherit;
+    margin-right: 1rem;
+}
+.historico ul {
+  list-style: none; /* remove o marcador padrão */
+  padding: 0;
+  margin: 0;
+ 
+}
+
+.historico li {
+  position: relative;
+  padding-left: 2.5rem; /* espaço pro marcador */
+  margin-bottom: 2rem;  /* separação entre itens */
+}
+
+/* marcador customizado */
+.historico li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); /* centraliza verticalmente */
+  width: 1.5rem;    /* tamanho do círculo */
+  height: 1.5rem;
+  background-color: #25E2E2;
+  border-radius: 50%;
+}
 .about{
     max-width: 1400px;
     margin: auto;
@@ -208,7 +260,7 @@ header{
 .about h2{
     text-align: center;
     margin: 3rem 0 3rem 0;
-    font-size: 2.5rem;;
+    font-size: 2rem;;
 }
 .container{
     display: flex;
@@ -217,47 +269,6 @@ header{
     margin: auto;
 }
 
-.picture img{
-    width: 20rem;
-    border: solid 10px #25E2E2;
-    border-style: double;
-    border-radius: 1rem;
-    padding-top: 1rem;
-    margin-top: 3rem;
-}
-.description{
-    width: 40rem;
-    text-align: justify;
-    font-size: 20px;
-    margin: 0 1rem 1rem 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
-}
-.description h2{
-    margin-bottom: 1rem;
-}
-.description .info{
-    border: 2px solid white;
-    border-radius: 1rem;
-    padding: 1rem;
-    list-style: none;
-    box-shadow: 0.3rem 0.3rem 1rem white;
-    margin: 2rem 0 2rem 0;
-}
-.caixa-curriculo{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center
-}
-.info:hover #CV{
-    text-decoration: none;
-    border: 2px solid #ffff;
-    border-radius: 1rem;
-    padding: 0.5rem;
-    /* box-shadow: 0.3rem 0.3rem 1rem white; */
-}
 
 
 #abilidades{
@@ -504,8 +515,13 @@ footer .redes-sociais{
         height: 30px;
     }
     .capa h2{
-        margin-left: 2rem;
+        margin-left: 1rem;
         font-size: 40px;
+    }
+   .rede-proficional div img{
+    width: 300px;
+    height: 330px;
+    margin-left: 2px;
     }
     .info #CV{
         margin-top: 4rem;
